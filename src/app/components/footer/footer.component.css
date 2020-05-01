@@ -1,0 +1,22 @@
+.footer-style {
+    height: 400px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+i {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.contact-email {
+    letter-spacing: 3px;
+}
+
+.my-link:hover {
+    cursor: pointer;
+    color: #EABABB;
+}

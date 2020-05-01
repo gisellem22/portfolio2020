@@ -1,0 +1,38 @@
+.nav-clean {
+    background-color: #ffffff !important;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 1px;
+}
+.logo {
+    height: 100px;
+}
+.resp-sm {
+    display: none;
+}
+.center-resp {
+    display: flex;
+    justify-content: center;
+}
+.btn-menu:hover {
+    background-color: #F9F9F9;
+}
+a, div, button {
+    outline: none;
+}
+
+@media screen and (max-width:770px){
+    .resp-sm {
+        display: block;
+    }
+    .resp-lg {
+        display: none;
+    }
+    .logo {
+        height: 40px;
+    }
+    .center-resp {
+        display: flex;
+        justify-content: start;
+    }
+}

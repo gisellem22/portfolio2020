@@ -1,0 +1,32 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+html {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #555555;
+    font-size: 19px;
+    font-weight: 300;
+}
+.bg-pink {
+    background-color: #FFEEDA;
+}
+.bg-green {
+    background-color: #64DEA3;
+}
+.bg-yellow {
+    background-color: #FFDA67;
+}
+.bg-dark-pink {
+    background-color: #EABABB;
+}
+.bg-red {
+    background-color: #F34F50;
+}
+.bg-blue {
+    background-color: #6F8CC4;
+}
