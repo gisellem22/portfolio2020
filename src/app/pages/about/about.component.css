@@ -1,0 +1,20 @@
+.profile-pic {
+    width: 400px;
+}
+.part-one {
+    height: calc(100vh - 136px);
+}
+.part-two {
+    height: 100vh;
+    background-color:#FFEEDA;
+}
+
+.skills-icon {
+    color: #FFE521;
+    font-size: 50px;
+}
+@media screen and (max-width:770px){
+    .skills-icon {
+        font-size: 30px;
+    }  
+}

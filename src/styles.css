@@ -4,6 +4,7 @@
 html {
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,6 +12,9 @@ body {
     color: #555555;
     font-size: 19px;
     font-weight: 300;
+}
+.loading {
+    height: calc(100vh - 136px);
 }
 .bg-pink {
     background-color: #FFEEDA;
