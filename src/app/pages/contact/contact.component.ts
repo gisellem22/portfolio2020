@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { FooterComponent } from './../../components/footer/footer.component';
 
 @Component({
   selector: 'app-contact',
@@ -6,13 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  @ViewChild(FooterComponent, { static: true }) footerComponent: FooterComponent;
+
+
 
   public loading: boolean = true;
 
   constructor() { 
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.footerComponent.isFooter = false;
+
+  }
+  
   
   onLoad() {
     this.loading = false;
