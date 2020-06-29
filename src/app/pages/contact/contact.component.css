@@ -1,0 +1,37 @@
+.contact-img {
+    width: 400px;
+}
+.contact-text {
+    margin-top: -2rem;
+}
+.contact-mail {
+    font-size: 36px;
+    cursor: pointer;
+    color: #7952B3;
+}
+.contact-mail:hover, .contact-icon:hover {
+    color: #9983E2;
+    text-decoration: none;
+}
+.contact-icon {
+    color: #7952B3;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .contact-img {
+        margin-top: 2rem;
+        width: 300px;
+    }
+    .contact-text {
+        margin-top: 2rem;
+    }
+    .contact-mail {
+        font-size: 20px;
+    }
+    .contact-icon {
+        font-size: 40px;
+    }
+  }
+  
