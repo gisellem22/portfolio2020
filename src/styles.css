@@ -7,6 +7,11 @@ html {
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     color: #555555;
@@ -34,3 +39,49 @@ body {
 .bg-blue {
     background-color: #6F8CC4;
 }
+
+
+/* ABOUT SECTION */
+
+.profile-pic {
+    width: 400px;
+}
+.circle-top {
+    margin-top: 8rem;
+}
+
+
+ /* CONTACT SECTION */
+
+.contact-img {
+    width: 400px;
+}
+.contact-text {
+    margin-top: -2rem;
+}
+.contact-mail {
+    font-size: 36px;
+    cursor: pointer;
+    color: #7952B3;
+}
+.contact-mail:hover {
+    color: #9983E2;
+}
+.contact-icon {
+    color: #343A40;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .profile-pic {
+        width: 300px;
+    }
+    .contact-img {
+        width: 300px;
+    }
+    .circle-top {
+        margin-top: 2rem !important;
+    }
+  }
+  
