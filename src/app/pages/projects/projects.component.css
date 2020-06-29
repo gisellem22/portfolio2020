@@ -3,7 +3,7 @@
 }
 
 .pink {
-    background-color: #FFEEDA;
+    background-color: #FE90D2;
 }
 .green {
     background-color: #64DEA3;
@@ -11,12 +11,20 @@
 .yellow {
     background-color: #FFDA67;
 }
-.dark-pink {
-    background-color: #EABABB;
+.light-purple {
+    background-color: #ac53f2;
 }
-.red {
-    background-color: #F34F50;
+.purple {
+    background-color: #7952B3;
 }
 .blue {
-    background-color: #6F8CC4;
+    background-color: #3b5998;
+}
+
+.project-img {
+    max-width: 270px;
+}
+
+.project-img-sm {
+    max-width: 200px;
 }

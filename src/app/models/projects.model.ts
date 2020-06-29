@@ -5,4 +5,6 @@ export class ProjectsModel {
      demo?: string;
      code: string;
      npm?: string;
+     class: string;
+     size?: string;
 }
