@@ -6,15 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  
-  public loading: boolean = true;
 
-  constructor() { 
-  }
+  public loading = true;
 
-  ngOnInit() {
-    
-  }
+  constructor() {}
+
+  ngOnInit() {}
+
   onLoad() {
       this.loading = false;
   }

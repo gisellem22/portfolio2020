@@ -10,7 +10,7 @@ import { ProjectsModel } from './../../models/projects.model';
 export class ProjectsComponent implements OnInit {
 
   projects: ProjectsModel[];
-  loading = true;
+  loading = false;
 
   constructor(
     private projectsService: ProjectsService
@@ -20,10 +20,7 @@ export class ProjectsComponent implements OnInit {
     this.projectsService.getProjectsList().subscribe((projects => {
       console.log(projects);
       this.projects = projects;
+      this.loading = true;
     }));
-  }
-
-  onLoad() {
-    this.loading = false;
   }
   }
