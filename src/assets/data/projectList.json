@@ -1,7 +1,7 @@
 [
    
     {
-        "name": "LANDERZ.",
+        "name": "LANDERZ",
         "text": "Landing page responsiva implementada en HTML, CSS y Javascript, consumo de API Rest y librerías Bootstrap, Slick y Axios.",
         "img": "../../../assets/img/projects/landing_1.png",
         "demo": "https://gisellem22.github.io/Modyo-Project/src/index.html",
@@ -52,7 +52,7 @@
     {
         "name": "GIGIBOOK",
         "text": "Interfaz web que representa la sección de comentarios de una plataforma. Implementada con Angular, Firebase RealTime Firestore y Bootstrap.",
-        "img": "../../../assets/img/projects/letter-g.png",
+        "img": "../../../assets/img/projects/letter-gi.png",
         "demo": "https://desafio-comentarios.firebaseapp.com",
         "code": "https://github.com/gisellem22/Desafio-Comentarios",
         "class": "blue"

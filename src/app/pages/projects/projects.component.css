@@ -1,15 +1,17 @@
 .project-card {
     height: 400px;
+    color: #ffffff;
+    font-size: 18px;
 }
 
 .pink {
     background-color: #FE90D2;
 }
 .green {
-    background-color: #64DEA3;
+    background-color: #05aa9c;
 }
 .yellow {
-    background-color: #FFDA67;
+    background-color: #ffc107;
 }
 .light-purple {
     background-color: #ac53f2;
@@ -22,9 +24,58 @@
 }
 
 .project-img {
-    max-width: 270px;
+    max-width: 230px;
 }
 
 .project-img-sm {
     max-width: 200px;
 }
+
+
+/* FLIP CARDS */
+  
+  .card-container {
+    display: grid;
+    perspective: 700px;
+  }
+  
+  .card-flip {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+  }
+  
+  .card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  .front {
+    grid-area: frontAndBack;
+  }
+  
+  .back {
+    grid-area: frontAndBack;
+    transform: rotateY(-180deg);
+  }
+  
+  .card-container:hover .card-flip {
+    transform: rotateY(180deg);
+  }
+  
+  .inner-card {
+      background-color: rgba(255, 255, 255, 0.253);
+  }
+
+  .card-link {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+  .card-link:hover {
+    color: rgb(78, 75, 75);
+  }
