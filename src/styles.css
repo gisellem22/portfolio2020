@@ -45,4 +45,7 @@ body {
 }
 
 @media (max-width: 768px) {}
-  
+
+div, a {
+    outline: none;
+}

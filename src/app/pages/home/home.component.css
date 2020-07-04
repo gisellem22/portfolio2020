@@ -1,0 +1,10 @@
+.projects-section {
+    width: 500px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:770px){
+    .projects-section {
+        width: 300px;
+    }    
+}
