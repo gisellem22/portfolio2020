@@ -49,3 +49,9 @@ body {
 div, a {
     outline: none;
 }
+
+.carousel-indicators li {
+    background-color: #FFDA67;
+    margin-right: 3rem;
+    padding-top: 0.5rem;
+}

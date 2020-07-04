@@ -1,12 +1,46 @@
 <div class="container w-100 home-size d-flex justify-content-center">
-    <div class="row align-items-center h-100 px-0 w-100">
-        <div class="col-md-6">
-            <h1>VER MIS PROYECTOS</h1>
-            <p>Proyectos desarrollados por mi que son muy lindos</p>
+
+    <div id="carouselExampleIndicators" class="carousel slide h-100" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center h-100 px-0 w-100" routerLink="/projects">
+                <div class="col-md-6">
+                    <h1>VER MIS PROYECTOS</h1>
+                    <p>Proyectos desarrollados por mi que son muy lindos</p>
+                </div>
+                <div class="col-md-6 w-100 text-center">
+                        <img class=" img-fluid" src="../../../assets/img/projects.png" alt="">
+                </div>
+            </div>                    
         </div>
-        <div class="col-md-6 w-100" routerLink="/projects">
-                <img class=" img-fluid" src="../../../assets/img/projects.png" alt="">
+          <div class="carousel-item">
+            <div class="row align-items-center h-100 px-0 w-100" routerLink="/about">
+                <div class="col-md-6">
+                    <h1>Sobre Mi</h1>
+                    <p>Me llamo Giselle Machado y soy Front-end Developer. Te cuento más sobre mi.</p>
+                </div>
+                <div class="col-md-6 w-100 text-center">
+                        <img class=" img-fluid" src="../../../assets/img/woman-working.png" alt="">
+                </div>
+            </div>                    
         </div>
-    </div>
+          <div class="carousel-item">
+            <div class="row align-items-center h-100 px-0 w-100" routerLink="/contact">
+                <div class="col-md-6">
+                    <h1>DIME HOLA</h1>
+                    <p>Si quieres entrar en contacto para hablar sobre un nuevo proyecto o solo decir hola, envíame un correo.</p>
+                </div>
+                <div class="col-md-6 w-100 text-center">
+                        <img class=" img-fluid" src="../../../assets/img/say-hi-icon.png" alt="">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
 </div>
 <app-footer></app-footer>
