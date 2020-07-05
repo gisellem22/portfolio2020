@@ -1,29 +1,50 @@
-<div class="container w-100 home-size">
-    <div class="row align-items-center d-flex justify-content-center px-0 w-100" routerLink="/projects">
-        <div class="col-md-6">
-            <h1>VER MIS PROYECTOS</h1>
-            <p>Proyectos desarrollados por mi que son muy lindos</p>
+<div *ngIf="!loading" class="loading">
+    <div class="h-100 d-flex justify-content-center">
+        <div class="d-flex align-items-center ">
+            <div class="spinner-border text-secondary" style="width: 4rem; height: 4rem;" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+              <div class="spinner-grow text-secondary" style="width: 4rem; height: 4rem;" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>    
+        </div>    
+    </div>
+</div>
+<div class="w-100 home-size" *ngIf="loading">
+    <div class="container h-100 d-flex align-items-center justify-content-center">
+        <div class="row px-0 w-100 d-flex align-items-center">
+            <div class="col-md-6">
+                <h1>VER MIS PROYECTOS</h1>
+                <p>Proyectos desarrollados por mi que son muy lindos</p>
+            </div>
+            <div class="col-md-6 w-100">
+                <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+                    <div ngxSlickItem *ngFor="let project of projects" class="slide d-flex justify-content-center" routerLink="/projects">
+                        <div [ngClass]="project.class" class="project-card d-flex align-items-center justify-content-center">
+                            <img class=" img-fluid" [ngClass]="project.size==='sm'? 'project-img-sm' : 'project-img'" 
+                            [src]="project.img" alt="">
+                        </div>   
+                    </div>
+                </ngx-slick-carousel>        
+            </div>
         </div>
-        <div class="col-md-6 w-100 text-center">
-                <img class=" img-fluid" src="../../../assets/img/projects.png" alt="">
-        </div>
-    </div>    
+    </div>
 </div>
 <div class="bg-pink h-100 my-5">
-    <div class="container h-100">
+    <div class="container h-100 container h-100 d-flex align-items-center justify-content-center">
         <div class="row d-flex align-items-center h-100 px-0 w-100" routerLink="/about">
             <div class="col-md-6">
                 <h1>Sobre Mi</h1>
                 <p>Me llamo Giselle Machado y soy Front-end Developer. Te cuento más sobre mi.</p>
             </div>
-            <div class="col-md-6 w-100 text-center">
+            <div class="col-md-6 w-100">
                 <img class=" img-fluid" src="../../../assets/img/woman-working.png" alt="">
             </div>
         </div>    
     </div>
 </div>
-<div class="container h-100">
-    <div class="row e-flex align-items-center justify-content-center h-100 px-0 w-100" routerLink="/contact">
+<div class="container h-100 d-flex align-items-center justify-content-center">
+    <div class="row d-flex align-items-center h-100 px-0 w-100" routerLink="/contact">
         <div class="col-md-6">
             <h1>DIME HOLA</h1>
             <p>Si quieres entrar en contacto para hablar sobre un nuevo proyecto o solo decir hola, envíame un correo.</p>

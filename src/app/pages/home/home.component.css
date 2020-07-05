@@ -2,6 +2,45 @@
     height: calc(100% - 133px);
 }
 
+/* .slick-slider {
+    width: 90%;
+  }
+   */
+
+.project-card {
+    height: 350px;
+    width: 350px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+.project-img {
+    max-width: 150px;
+}
+
+.project-img-sm {
+    max-width: 120px;
+}
+
+.pink {
+    background-color: #FE90D2;
+}
+.green {
+    background-color: #0e9e92;
+}
+.yellow {
+    background-color: #ffc107;
+}
+.light-purple {
+    background-color: #ac53f2;
+}
+.purple {
+    background-color: #7952B3;
+}
+.blue {
+    background-color: #3b5998;
+}
 
 @media screen and (max-width:770px){
     .home-size {
