@@ -13,9 +13,10 @@
 <div class="w-100 home-size" *ngIf="loading">
     <div class="container h-100 d-flex align-items-center justify-content-center">
         <div class="row px-0 w-100 d-flex align-items-center">
-            <div class="col-md-6">
+            <div class="col-md-6 pb-3">
                 <h1>VER MIS PROYECTOS</h1>
                 <p>Proyectos desarrollados por mi que son muy lindos</p>
+                <button class="btn btn-danger" routerLink="/projects">Ver más</button>
             </div>
             <div class="col-md-6 w-100">
                 <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
@@ -36,6 +37,8 @@
             <div class="col-md-6">
                 <h1>Sobre Mi</h1>
                 <p>Me llamo Giselle Machado y soy Front-end Developer. Te cuento más sobre mi.</p>
+                <button class="btn btn-danger" routerLink="/projects">Ver más</button>
+
             </div>
             <div class="col-md-6 w-100">
                 <img class=" img-fluid" src="../../../assets/img/woman-working.png" alt="">
@@ -48,6 +51,8 @@
         <div class="col-md-6">
             <h1>DIME HOLA</h1>
             <p>Si quieres entrar en contacto para hablar sobre un nuevo proyecto o solo decir hola, envíame un correo.</p>
+            <button class="btn btn-danger" routerLink="/projects">Ver más</button>
+
         </div>
         <div class="col-md-6 w-100 text-center">
                 <img class=" img-fluid" src="../../../assets/img/say-hi-icon-2.png" alt="">

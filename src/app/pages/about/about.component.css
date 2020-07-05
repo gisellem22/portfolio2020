@@ -16,6 +16,12 @@
 .circle-top {
     margin-top: 8rem;
 }
+.text-right-sm {
+    text-align: right;
+}
+.text-left-sm {
+    text-align: left;
+}
 
 @media screen and (max-width:770px){
     .skills-icon {
@@ -32,5 +38,8 @@
     }
     .circle-top {
         margin-top: 2rem !important;
+    }
+    .text-right-sm, .text-left-sm {
+        text-align: center;
     }
 }

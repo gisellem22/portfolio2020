@@ -46,4 +46,7 @@
     .home-size {
         height: calc(100% - 80px);
     } 
+    .project-card {
+        height: 280px;
+    }
 }

@@ -9,8 +9,13 @@
     cursor: pointer;
     color: #F16575;
 }
-.contact-mail:hover, .contact-icon:hover {
+.contact-mail:hover {
     color: #E61A55;
+    text-decoration: none;
+}
+
+.contact-icon:hover {
+    color: #f1818f;
     text-decoration: none;
 }
 .contact-icon {
