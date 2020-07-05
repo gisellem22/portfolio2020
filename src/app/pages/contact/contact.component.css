@@ -7,14 +7,14 @@
 .contact-mail {
     font-size: 36px;
     cursor: pointer;
-    color: #7952B3;
+    color: #F16575;
 }
 .contact-mail:hover, .contact-icon:hover {
-    color: #9983E2;
+    color: #E61A55;
     text-decoration: none;
 }
 .contact-icon {
-    color: #7952B3;
+    color: #F16575;
     font-size: 50px;
     cursor: pointer;
 }

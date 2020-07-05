@@ -10,7 +10,7 @@ i {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #F16575;
 }
 .footer-mail {
     letter-spacing: 3px;
@@ -18,7 +18,7 @@ a {
     cursor: pointer;
 }
 .footer-mail:hover, .footer-icon:hover {
-    color: #EABABB;  
+    color: #E61A55;  
 }
 .footer-icon {
     font-size: 50px;
